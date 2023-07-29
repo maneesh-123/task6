@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ticketing Contract UI</title>
+   
+</head>
+<body>
+    <h1>Ticketing Contract</h1>
+    <p>Enter Ticket ID and Event ID to create a ticket:</p>
+    <input type="text" id="ticketIdInput" placeholder="Ticket ID">
+    <input type="text" id="eventIdInput" placeholder="Event ID">
+    <button onclick="createTicket()">Create Ticket</button>
+
+    <p>Enter Ticket ID to purchase:</p>
+    <input type="text" id="purchaseTicketIdInput" placeholder="Ticket ID">
+    <button onclick="purchaseTicket()">Purchase Ticket</button>
+
+    <p>Enter Ticket ID and Recipient Address to transfer:</p>
+    <input type="text" id="transferTicketIdInput" placeholder="Ticket ID">
+    <input type="text" id="recipientAddressInput" placeholder="Recipient Address">
+    <button onclick="transferTicket()">Transfer Ticket</button>
+
+    <p>Enter Ticket ID to invalidate:</p>
+    <input type="text" id="invalidateTicketIdInput" placeholder="Ticket ID">
+    <button onclick="invalidateTicket()">Invalidate Ticket</button>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
